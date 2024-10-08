@@ -7,7 +7,7 @@ permissions:
 jobs:
   dependency-review:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.created_at > '2024-10-08'
+    if: github.event.pull_request.created_at > '2024-10-09'
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v4
